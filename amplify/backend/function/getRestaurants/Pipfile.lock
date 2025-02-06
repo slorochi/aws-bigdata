@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "762fe3af757fd8e8e91e3ba77ceca8c2a98adeef8ef90abb48068d04d05ad0f6"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "python3.13"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "src": {
+            "editable": true,
+            "path": "./src"
+        }
+    },
+    "develop": {}
+}

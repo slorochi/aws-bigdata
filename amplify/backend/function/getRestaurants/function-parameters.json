@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "storage": {
+      "restaurants": [
+        "create",
+        "read"
+      ],
+      "reviews": [
+        "create",
+        "read"
+      ],
+      "bigdata": [
+        "create",
+        "read"
+      ]
+    },
+    "auth": {
+      "bigdataf90580da": [
+        "create",
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

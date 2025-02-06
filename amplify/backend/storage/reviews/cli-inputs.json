@@ -1,0 +1,22 @@
+{
+  "resourceName": "reviews",
+  "tableName": "reviews",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "restaurant_id",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "restaurant_ids",
+      "partitionKey": {
+        "fieldName": "restaurant_id",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}

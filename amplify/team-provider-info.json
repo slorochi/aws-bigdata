@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bigdata-dev-26aca-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058264297753:role/amplify-bigdata-dev-26aca-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058264297753:role/amplify-bigdata-dev-26aca-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bigdata-dev-26aca-deployment",
+      "UnauthRoleName": "amplify-bigdata-dev-26aca-unauthRole",
+      "StackName": "amplify-bigdata-dev-26aca",
+      "StackId": "arn:aws:cloudformation:us-east-1:058264297753:stack/amplify-bigdata-dev-26aca/80318bb0-e3d3-11ef-b1f1-0e4b796e2be5",
+      "AmplifyAppId": "d2b1tkczta0i32"
+    },
+    "categories": {
+      "auth": {
+        "bigdataf90580da": {}
+      },
+      "storage": {
+        "restaurants": {},
+        "reviews": {},
+        "bigdata": {}
+      },
+      "function": {
+        "getRestaurants": {
+          "deploymentBucketName": "amplify-bigdata-dev-26aca-deployment",
+          "s3Key": "amplify-builds/getRestaurants-756849452f624c6f4541-build.zip"
+        },
+        "getRestaurant": {
+          "deploymentBucketName": "amplify-bigdata-dev-26aca-deployment",
+          "s3Key": "amplify-builds/getRestaurant-626b3573486e72445271-build.zip"
+        }
+      },
+      "api": {
+        "restaurants": {}
+      }
+    }
+  }
+}

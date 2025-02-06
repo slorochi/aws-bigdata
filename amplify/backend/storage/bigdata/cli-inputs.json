@@ -1,0 +1,14 @@
+{
+  "resourceName": "bigdata",
+  "policyUUID": "e2e528a1",
+  "bucketName": "bigdata",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
